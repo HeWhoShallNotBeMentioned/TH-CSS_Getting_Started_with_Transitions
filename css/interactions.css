@@ -17,6 +17,16 @@
 	background: #8B0000;
 }
 
+
 /* =================================
   Photo Overlay Transitions
 ==================================== */
+.photo-overlay {
+	opacity: 0;
+	transition-duration: .5s;
+}
+
+
+.photo-overlay:hover {
+	opacity: 1;
+}
